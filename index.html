@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./icon/font/fontawesome-free-6.1.0-web/css/all.css">
+    <title>Mucic HUU TAI</title>
+
+
+</head>
+
+<body>
+    <div id="app">
+        <div class="main">
+            <div class="display_music ">
+                <div class="display_music-header">
+                    <img src="./images/01.jpg" alt="amee" class="display_music-header--img">
+                    <h1 class="display_music-header--name">
+                        Anh nhà ở đâu thế ....
+                    </h1>
+                    <span class="display_music-header--singer">amee</span>
+                </div>
+                <!-- <div class="display_music-timeless">
+                    <div class="icon-coll"></div>
+                    <div class="time-song_play">
+                        
+                        <p class="time-song_play-count">00:00</p>
+                        <p class="time-song_play-end">05:00</p>
+
+                    </div>
+                </div> -->
+                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100" >
+                <div class="voulumn_btn">
+                    <i class="volumn_btn-hover fa-solid fa-volume-off"></i>
+                    <i class="volumn_btn-hover fa-solid fa-volume-low"></i>
+                    <i class="volumn_btn-hover fa-solid fa-volume-high active "></i>
+                    <input type="range" min="0" max ="1" step="0.1" id="progress_volumn" class="">
+                </div>
+                <div class="display_music-icons">
+
+                    <i class="icon-music fa-solid fa-shuffle"></i>
+                    <i class="icon-music fa-solid fa-backward-step"></i>
+                    <i class="icon-music fa-solid fa-pause no-active"></i>
+                    <i class="icon-music fa-solid fa-play active"></i>
+                    <i class="icon-music fa-solid fa-forward-step"></i>
+                    <i class="icon-music fa-solid fa-retweet"></i>
+
+                </div>
+
+            </div>
+            <div class="play_music-list">
+                <!-- <div class="items">
+                    <span class="items_order">01</span>
+                    <img src="./images/01.jpg" alt="" class="items-img">
+                    <div class="items_music-info">
+                        <div class="items_name-song">
+                            Mẹ anh bắt chia tay...
+                        </div>
+                        <div class="items_music-singer">
+                            amee
+                        </div>
+                    </div>
+                    <span class="items-times">04:05</span>
+                </div>
+            </div> -->
+            </div>
+
+
+        </div>
+        <audio id="audio" src=""></audio>
+        
+
+        <script src="./main.js"></script>
+
+</body>
+
+</html>
